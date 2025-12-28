@@ -5,6 +5,7 @@ export default function App() {
   console.log("jag");
 
   let x = 5
+  
 
   return (
     <View style={styles.container}>
