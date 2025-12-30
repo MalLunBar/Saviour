@@ -1,9 +1,9 @@
 export const themes = {
   light: {
     colors: {
-      primary: '#007AFF',
-      background: '#fff',
-      text: '#000',
+      primary: '#351102',
+      background: '#F0E3CE',
+      text: '#fff',
     },
     spacing: {
       xs: 4,

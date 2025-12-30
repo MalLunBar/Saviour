@@ -1,19 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
-import { Text, View, } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import { useDeviceOrientation } from '@react-native-community/hooks';
 import { styles } from './styles';
+import MainContainer from './components/MainContanier';
 
-export default function App() {
+const App = () => {
+  console.log(useDeviceOrientation());
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.screen}>
-        <View style={styles.container}>
-          <Text>Hej Todd</Text>
-        </View>
-
+        <MainContainer />
         <StatusBar style="auto" />
       </SafeAreaView>
     </SafeAreaProvider>
   );
 }
+
+export default App;
 

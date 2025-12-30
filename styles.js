@@ -6,6 +6,7 @@ export const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: currentTheme.colors.background,
     padding: currentTheme.spacing.md,
+    justifyContent: 'center',
   },
   header: {
     fontSize: 24,
@@ -14,9 +15,10 @@ export const styles = StyleSheet.create({
     marginBottom: currentTheme.spacing.lg,
   },
   container: {
-    flex: 1,
+    flex: 0.8,
     backgroundColor: currentTheme.colors.primary,
-    borderRadius: 8,
-
+    borderRadius: 40,
+    justifyContent: 'space-around',
+    alignItems: 'center',
   },
 });
