@@ -2,7 +2,7 @@ export const themes = {
   light: {
     colors: {
       primary: '#007AFF',
-      background: '#e0c9c9ff',
+      background: '#fff',
       text: '#000',
     },
     spacing: {
